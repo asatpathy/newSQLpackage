@@ -3,6 +3,7 @@ CREATE TABLE [dbo].[test1]
 [col1] [int] NOT NULL,
 [col2] [int] NOT NULL,
 [col3] [int] NOT NULL,
+[col4] [int] NULL,
 [pcol1] [int] NOT NULL IDENTITY(1, 1)
 ) ON [PRIMARY]
 GO
